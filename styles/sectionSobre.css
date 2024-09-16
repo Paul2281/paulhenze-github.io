@@ -1,10 +1,11 @@
 @import url('./globals.css');
 
 section#sobre {
-  background-image: url(../images/profile.jpg);
-  background-size: contain;
+  background-image: url(../images/profile.png);
+  background-size: 400px 400px;
   background-repeat: no-repeat;
-  background-position: 160ex;
+  background-position: 100ex;
+  background-attachment: local;
 }
 
 section#sobre {  

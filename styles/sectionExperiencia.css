@@ -2,10 +2,11 @@
 
 section#experiencia {
   background-color: var(--primaryContainer);
-  background-image: url(../images/work.png);
-  background-size: 250px;
+  background-image: url(../images/work2.png);
+  background-size: 300px 300px;
   background-repeat: no-repeat;
-  background-position: 165ex;
+  background-position: 105ex;
+  background-attachment: local;
 }
 
 

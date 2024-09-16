@@ -4,6 +4,11 @@ section#contato {
   background-color: var(--primaryContainer);
 }
 
+section#contato img{
+  width: 60px;
+  height: 60px;
+}
+
 section#contato button#acessar-github {
   background-color: var(--primary);
   padding: 0.7rem 1.2rem;

@@ -2,10 +2,11 @@
 
 section#formacao {
   background-image: url(../images/formacao.png);
-  background-size: 24%;
+  background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position: left;
-  margin-left: 20rem;
+  background-attachment:local;
+  margin-left: 14rem;
 }
 
 section#formacao {

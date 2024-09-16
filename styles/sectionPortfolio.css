@@ -2,10 +2,11 @@
 
 section#portfolio {
   background-image: url(../images/github-white.png);
-  background-size:contain;
+  background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position: left;
-  margin-left: 22rem;
+  background-attachment: local;
+  margin-left: 12rem;
 }
 section#portfolio {
   display: flex;
