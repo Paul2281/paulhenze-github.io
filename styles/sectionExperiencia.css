@@ -1,0 +1,46 @@
+@import url('./globals.css');
+
+section#experiencia {
+  background-color: var(--primaryContainer);
+  background-image: url(../images/work.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: 165ex;
+}
+
+
+section#experiencia {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+section#experiencia h1.title {
+  color: var(--onBackground);
+}
+
+section#experiencia strong.empresa {
+  color: var(--primary);
+}
+
+section#experiencia p.section-description {
+  text-align: left;
+}
+ul#itens-experiencia {
+  margin-top: 3rem;
+  margin-left: -2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+ul#itens-experiencia li {
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  section#experiencia h2, p, button {
+    max-width: 30rem;
+  }
+}
