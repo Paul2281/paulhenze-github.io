@@ -1,0 +1,45 @@
+@import url('./globals.css');
+
+section#formacao {
+  background-image: url(../images/formacao.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment:local;
+  margin-left: 4rem;
+}
+
+section#formacao {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+section#formacao h1.title {
+  color: var(--onBackground);
+}
+
+section#formacao strong.instituicao {
+  color: var(--primary);
+}
+
+section#formacao p.section-description {
+  text-align: right;
+}
+
+ul#itens-formacao {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+ul#itens-formacao li {
+  text-align: right;
+}
+
+@media (min-width: 1024px) {
+  section#formacao h2, p {
+    max-width: 30rem;
+  }
+}
