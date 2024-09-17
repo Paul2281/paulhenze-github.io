@@ -1,14 +1,17 @@
 @import url('./globals.css');
 
 section#experiencia {
-  background-color: var(--primaryContainer);
   background-image: url(../images/work2.png);
   background-size: 300px 300px;
   background-repeat: no-repeat;
-  background-position: 105ex;
+  background-position: right;
   background-attachment: local;
+  position:static;
 }
 
+section#experiencia {  
+  background-color: var(--primaryContainer);
+}
 
 section#experiencia {
   display: flex;

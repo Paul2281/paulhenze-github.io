@@ -2,10 +2,12 @@
 
 section#sobre {
   background-image: url(../images/profile.png);
-  background-size: 400px 400px;
+  background-size: 300px 300px;
   background-repeat: no-repeat;
-  background-position: 100ex;
+  background-position: right;
+  background-position-y: center;
   background-attachment: local;
+  position: static;
 }
 
 section#sobre {  
@@ -15,7 +17,6 @@ section#sobre {
 section#sobre span.myName {
   color: var(--primary);
 }
-
 
 #profile-pic {
   width: 8rem;
