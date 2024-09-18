@@ -9,14 +9,9 @@ section#experiencia {
   position:static;
 }
 
+
 section#experiencia {  
   background-color: var(--primaryContainer);
-}
-
-section#experiencia {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 section#experiencia h1.title {

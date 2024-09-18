@@ -1,6 +1,6 @@
 @import url('./globals.css');
 
-section#sobre {
+/*section#sobre {
   background-image: url(../images/profile.png);
   background-size: 300px 300px;
   background-repeat: no-repeat;
@@ -8,20 +8,22 @@ section#sobre {
   background-position-y: center;
   background-attachment: local;
   position: static;
-}
+}*/
 
 section#sobre {  
   background-color: var(--primaryContainer);
 }
 
-section#sobre span.myName {
-  color: var(--primary);
+section#sobre img{
+  float:right;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  pointer-events: none;
 }
 
-#profile-pic {
-  width: 8rem;
-  margin-bottom: 2rem;
-  clip-path: circle(); 
+section#sobre span.myName {
+  color: var(--primary);
 }
 
 @media (min-width: 1024px) {
